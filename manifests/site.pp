@@ -5,6 +5,7 @@ node 'default' {
   import 'settings'
 
   include puppet
+  include apt
   include ssh
   include sudo
   include iptables
